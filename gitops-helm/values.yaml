@@ -4,7 +4,7 @@ replicas: 3
 
 image:
   repository: docker.io/akthrms/gitops-go-app
-  tag: 1
+  tag: 2
 
 imageConfig:
   pullPolicy: IfNotPresent
