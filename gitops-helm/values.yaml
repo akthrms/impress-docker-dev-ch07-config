@@ -1,0 +1,12 @@
+label: gitops
+
+replicas: 3
+
+image:
+  repository: docker.io/akthrms/gitops-go-app
+  tag: 0
+
+imageConfig:
+  pullPolicy: IfNotPresent
+
+service_type: LoadBalancer
